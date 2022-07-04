@@ -12,7 +12,7 @@
 
 <script>
   $: browser && GQL_AllCharacters.fetch()
-  let characters = $GQL_AllCharacters.data?.characters?.results || []
+  $: characters = $GQL_AllCharacters.data?.characters?.results || []
 </script>
 
 <h1>The World of Rick and Morty</h1>

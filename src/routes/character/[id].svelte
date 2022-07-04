@@ -5,6 +5,7 @@
 
   export async function load(event: LoadEvent) {
     const variables = { id: event.params.id }
+
     await GQL_GetCharacter.fetch({ event, variables })
 
     return { props: { variables } }
@@ -14,14 +15,21 @@
 <script lang="ts">
   export let variables: GetCharacter$input
   $: browser && GQL_GetCharacter.fetch({ variables })
-  let {
+  $: ({
     name,
     image,
     status,
     species,
     location,
     episode: episodes,
-  } = $GQL_GetCharacter.data?.character || {}
+  } = $GQL_GetCharacter.data?.character || {
+    name: null,
+    image: null,
+    status: null,
+    species: null,
+    location: null,
+    episode: [],
+  })
 </script>
 
 <section>
@@ -32,12 +40,13 @@
   <p>
     <span>{location?.name}</span> - <span>{location?.type}</span>
   </p>
-  Appeared in :
-  <!-- <ul>
+  <br />
+  <b>Appeared in :</b>
+  <ul>
     {#each episodes as ep}
-      <li>{ep.name}</li>
+      <li>{ep?.name}</li>
     {/each}
-  </ul> -->
+  </ul>
 </section>
 
 <style>
