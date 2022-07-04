@@ -1,0 +1,11 @@
+# Typical File for extension: vscode-graphql & CodeGen!
+projects:
+  default:
+    schema:
+      - https://rickandmortyapi.com/graphql
+        # headers:
+        #   Authorization: 'Bearer ${TOKEN}'
+      - ./$houdini/graphql/schema.gql
+    documents:
+      - '**/*.gql'
+      - ./$houdini/graphql/documents.gql
