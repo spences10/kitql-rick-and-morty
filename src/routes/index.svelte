@@ -19,7 +19,7 @@
 <div class="wrapper">
   {#each characters as character}
     <section>
-      <a href={`/character/${character?.id}`}>
+      <a sveltekit:prefetch href={`/character/${character?.id}`}>
         <img src={character?.image} alt={character?.name} />
         <h2>{character?.name}</h2>
       </a>
