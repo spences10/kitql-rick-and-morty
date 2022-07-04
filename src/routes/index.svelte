@@ -12,14 +12,14 @@
 
 <script>
   $: browser && GQL_AllCharacters.fetch()
-  let characters = $GQL_AllCharacters.data?.characters?.results || []
+  $: characters = $GQL_AllCharacters.data?.characters?.results || []
 </script>
 
 <h1>The World of Rick and Morty</h1>
 <div class="wrapper">
   {#each characters as character}
     <section>
-      <a href={`/character/${character?.id}`}>
+      <a sveltekit:prefetch href={`/character/${character?.id}`}>
         <img src={character?.image} alt={character?.name} />
         <h2>{character?.name}</h2>
       </a>
