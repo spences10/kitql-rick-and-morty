@@ -1,23 +1,23 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@kitql/all-in': ^0.7.0
-  '@playwright/test': ^1.23.1
+  '@kitql/all-in': 0.7.0
+  '@playwright/test': 1.23.1
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
-  '@typescript-eslint/eslint-plugin': ^5.30.5
-  '@typescript-eslint/parser': ^5.30.5
-  eslint: ^8.19.0
-  eslint-config-prettier: ^8.5.0
-  eslint-plugin-svelte3: ^4.0.0
-  graphql: ^16.5.0
-  prettier: ^2.7.1
-  prettier-plugin-svelte: ^2.7.0
-  svelte: ^3.48.0
-  svelte-check: ^2.8.0
-  svelte-preprocess: ^4.10.7
-  tslib: ^2.4.0
-  typescript: ^4.7.4
+  '@typescript-eslint/eslint-plugin': 5.30.5
+  '@typescript-eslint/parser': 5.30.5
+  eslint: 8.19.0
+  eslint-config-prettier: 8.5.0
+  eslint-plugin-svelte3: 4.0.0
+  graphql: 16.5.0
+  prettier: 2.7.1
+  prettier-plugin-svelte: 2.7.0
+  svelte: 3.48.0
+  svelte-check: 2.8.0
+  svelte-preprocess: 4.10.7
+  tslib: 2.4.0
+  typescript: 4.7.4
 
 dependencies:
   '@kitql/all-in': 0.7.0_nx5rldzsxkqp2qf2miljeykxp4
@@ -910,7 +910,7 @@ packages:
       '@graphql-codegen/plugin-helpers': 2.4.2_graphql@16.5.0
       '@graphql-tools/optimize': 1.3.0_graphql@16.5.0
       '@graphql-tools/relay-operation-optimizer': 6.5.0_graphql@16.5.0
-      '@graphql-tools/utils': 8.6.13_graphql@16.5.0
+      '@graphql-tools/utils': 8.8.0_graphql@16.5.0
       auto-bind: 4.0.0
       change-case-all: 1.0.14
       dependency-graph: 0.11.0
