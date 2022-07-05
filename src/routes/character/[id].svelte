@@ -34,11 +34,12 @@
 
 <section>
   <img src={image} alt={name} />
-  <h2>{name}</h2>
-  <p>{status}</p>
-  <p>{species}</p>
+  <h2>Name: {name}</h2>
+  <p>Status: {status}</p>
+  <p>Species: {species}</p>
   <p>
-    <span>{location?.name}</span> - <span>{location?.type}</span>
+    <span>Location: {location?.name}</span> -
+    <span>Location Type: {location?.type}</span>
   </p>
   <br />
   <b>Appeared in :</b>
@@ -50,4 +51,10 @@
 </section>
 
 <style>
+  section {
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+  }
 </style>
