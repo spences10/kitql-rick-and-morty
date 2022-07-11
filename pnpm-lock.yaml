@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@kitql/all-in': 0.7.0
+  '@kitql/all-in': 0.7.1
   '@playwright/test': 1.23.2
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
@@ -21,7 +21,7 @@ specifiers:
   vite: 2.9.14
 
 dependencies:
-  '@kitql/all-in': 0.7.0_nx5rldzsxkqp2qf2miljeykxp4
+  '@kitql/all-in': 0.7.1_nx5rldzsxkqp2qf2miljeykxp4
   graphql: 16.5.0
 
 devDependencies:
@@ -1357,8 +1357,8 @@ packages:
       '@jridgewell/resolve-uri': 3.0.8
       '@jridgewell/sourcemap-codec': 1.4.14
 
-  /@kitql/all-in/0.7.0_nx5rldzsxkqp2qf2miljeykxp4:
-    resolution: {integrity: sha512-CKHDbgXBdd/eiAzhC/30aPxTAV7rN6PQw8OOjFguslzQpemY5/l671atmUH0QUHFSCleOFcGNlVk2PBTpBkA8w==}
+  /@kitql/all-in/0.7.1_nx5rldzsxkqp2qf2miljeykxp4:
+    resolution: {integrity: sha512-6crEPZLPhmKYGYp4DwsIdM/bckE4NGdVvpk1TuEVD1BBCoiuP5wFhehOwxGRxVZT7bAfbOEUm9IwlLuENNJssQ==}
     peerDependencies:
       graphql: ^15.0.0 || ^16.0.0
     dependencies:
@@ -1380,7 +1380,7 @@ packages:
       graphql: 16.5.0
       graphql-modules: 2.1.0_graphql@16.5.0
       graphql-scalars: 1.17.0_graphql@16.5.0
-      houdini: 0.15.0
+      houdini: 0.15.5
     transitivePeerDependencies:
       - '@types/node'
       - bufferutil
@@ -3435,8 +3435,8 @@ packages:
       tslib: 2.4.0
     dev: false
 
-  /houdini/0.15.0:
-    resolution: {integrity: sha512-yTxJSMtPHVhk6koGQ9VtJYoWaDnCnB0Qas+LtH1tFDM3LQMD3DvRnAfFJ/HCJTqhIgwuFWhctryOvRd1/tc8XQ==}
+  /houdini/0.15.5:
+    resolution: {integrity: sha512-PUI6bVQghtplUmbSIPj2E3/EW1k59utwIKuAeUxBOSTE1C1WmSdzRI33isyCO4lg6O1Fw7g04ADfgiCqu+F/VA==}
     hasBin: true
     dependencies:
       '@babel/parser': 7.18.6
