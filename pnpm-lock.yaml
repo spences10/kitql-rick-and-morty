@@ -1,4 +1,8 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 dependencies:
   '@kitql/all-in':
@@ -46,8 +50,8 @@ devDependencies:
     specifier: 3.49.0
     version: 3.49.0
   svelte-check:
-    specifier: 2.8.0
-    version: 2.8.0(@babel/core@7.22.1)(svelte@3.49.0)
+    specifier: 2.10.3
+    version: 2.10.3(@babel/core@7.22.1)(svelte@3.49.0)
   svelte-preprocess:
     specifier: 4.10.7
     version: 4.10.7(@babel/core@7.22.1)(svelte@3.49.0)(typescript@4.7.4)
@@ -4660,8 +4664,8 @@ packages:
     dependencies:
       has-flag: 4.0.0
 
-  /svelte-check@2.8.0(@babel/core@7.22.1)(svelte@3.49.0):
-    resolution: {integrity: sha512-HRL66BxffMAZusqe5I5k26mRWQ+BobGd9Rxm3onh7ZVu0nTk8YTKJ9vu3LVPjUGLU9IX7zS+jmwPVhJYdXJ8vg==}
+  /svelte-check@2.10.3(@babel/core@7.22.1)(svelte@3.49.0):
+    resolution: {integrity: sha512-Nt1aWHTOKFReBpmJ1vPug0aGysqPwJh2seM1OvICfM2oeyaA62mOiy5EvkXhltGfhCcIQcq2LoE0l1CwcWPjlw==}
     hasBin: true
     peerDependencies:
       svelte: ^3.24.0
