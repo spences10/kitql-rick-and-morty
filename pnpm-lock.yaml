@@ -18,13 +18,13 @@ devDependencies:
     version: 1.34.3
   '@sveltejs/adapter-auto':
     specifier: next
-    version: 1.0.0-next.91(@sveltejs/kit@1.20.1)
+    version: 1.0.0-next.91(@sveltejs/kit@1.20.2)
   '@sveltejs/adapter-vercel':
     specifier: 3.0.1
-    version: 3.0.1(@sveltejs/kit@1.20.1)
+    version: 3.0.1(@sveltejs/kit@1.20.2)
   '@sveltejs/kit':
-    specifier: 1.20.1
-    version: 1.20.1(svelte@3.49.0)(vite@4.3.9)
+    specifier: 1.20.2
+    version: 1.20.2(svelte@3.49.0)(vite@4.3.9)
   '@typescript-eslint/eslint-plugin':
     specifier: 5.33.1
     version: 5.33.1(@typescript-eslint/parser@5.33.1)(eslint@8.42.0)(typescript@4.9.5)
@@ -1883,21 +1883,21 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@sveltejs/adapter-auto@1.0.0-next.91(@sveltejs/kit@1.20.1):
+  /@sveltejs/adapter-auto@1.0.0-next.91(@sveltejs/kit@1.20.2):
     resolution: {integrity: sha512-U57tQdzTfFINim8tzZSARC9ztWPzwOoHwNOpGdb2o6XrD0mEQwU9DsII7dBblvzg+xCnmd0pw7PDtXz5c5t96w==}
     peerDependencies:
       '@sveltejs/kit': ^1.0.0-next.587
     dependencies:
-      '@sveltejs/kit': 1.20.1(svelte@3.49.0)(vite@4.3.9)
+      '@sveltejs/kit': 1.20.2(svelte@3.49.0)(vite@4.3.9)
       import-meta-resolve: 2.2.2
     dev: true
 
-  /@sveltejs/adapter-vercel@3.0.1(@sveltejs/kit@1.20.1):
+  /@sveltejs/adapter-vercel@3.0.1(@sveltejs/kit@1.20.2):
     resolution: {integrity: sha512-PBY3YRm7Q7Prax07mxD/rvcho2CntGkYncAIkz2DtG5NTcVG5JZ1RM627it5zYYtc2/RB3YjMkZuCMBqDCiPkA==}
     peerDependencies:
       '@sveltejs/kit': ^1.5.0
     dependencies:
-      '@sveltejs/kit': 1.20.1(svelte@3.49.0)(vite@4.3.9)
+      '@sveltejs/kit': 1.20.2(svelte@3.49.0)(vite@4.3.9)
       '@vercel/nft': 0.22.6
       esbuild: 0.17.19
     transitivePeerDependencies:
@@ -1905,8 +1905,8 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/kit@1.20.1(svelte@3.49.0)(vite@4.3.9):
-    resolution: {integrity: sha512-iZ7PvbM45sdLR3KIXFTbwIwP4PmeO/7JdNdpKRc/T9xMgDabNlPhL1gnJ/Hi1w00g4nc3Zpo/HNrzbRmuOnUjQ==}
+  /@sveltejs/kit@1.20.2(svelte@3.49.0)(vite@4.3.9):
+    resolution: {integrity: sha512-MtR1i+HtmYWcRgtubw1GQqT/+CWXL/z24PegE0xYAdObbhdr7YtEfmoe705D/JZMtMmoPXrmSk4W0MfL5A3lYw==}
     engines: {node: ^16.14 || >=18}
     hasBin: true
     requiresBuild: true
