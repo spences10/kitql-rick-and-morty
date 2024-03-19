@@ -36,7 +36,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@kitql/all-in": "0.7.7",
+    "@kitql/all-in": "0.9.6",
     "graphql": "16.8.1"
   }
 }
